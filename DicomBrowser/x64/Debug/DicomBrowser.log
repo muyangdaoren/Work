@@ -1,0 +1,23 @@
+﻿  Moc'ing DrawLinePlot.h...
+  E:\Projects\DicomBrowser\DicomBrowser\DrawLinePlot.h(23): Warning: Class DrawLinePlot inherits from two QObject subclasses QWidget and QCustomPlot. This is not supported!
+  moc_DrawLinePlot.cpp
+  DicomBrowser.cpp
+  DrawLinePlot.cpp
+e:\projects\dicombrowser\dicombrowser\generatedfiles\debug\../../DrawLinePlot.h(6): warning C4584: 'DrawLinePlot': base-class 'QWidget' is already a base-class of 'QCustomPlot' (compiling source file .\GeneratedFiles\Debug\moc_DrawLinePlot.cpp)
+  d:\qt5_6_2installpos\5.6\msvc2015_64\include\qtwidgets\qscroller.h(44): note: see declaration of 'QWidget' (compiling source file .\GeneratedFiles\Debug\moc_DrawLinePlot.cpp)
+  E:\Projects\DicomBrowser\DicomBrowser\qcustomplot.h(3590): note: see declaration of 'QCustomPlot' (compiling source file .\GeneratedFiles\Debug\moc_DrawLinePlot.cpp)
+e:\projects\dicombrowser\dicombrowser\DrawLinePlot.h(6): warning C4584: 'DrawLinePlot': base-class 'QWidget' is already a base-class of 'QCustomPlot' (compiling source file DrawLinePlot.cpp)
+  d:\qt5_6_2installpos\5.6\msvc2015_64\include\qtwidgets\qscroller.h(44): note: see declaration of 'QWidget' (compiling source file DrawLinePlot.cpp)
+  E:\Projects\DicomBrowser\DicomBrowser\qcustomplot.h(3590): note: see declaration of 'QCustomPlot' (compiling source file DrawLinePlot.cpp)
+D:\vs2015\VC\include\xutility(2372): warning C4996: 'std::copy::_Unchecked_iterators::_Deprecate': Call to 'std::copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators' (compiling source file DicomBrowser.cpp)
+  D:\vs2015\VC\include\xutility(2372): note: see declaration of 'std::copy::_Unchecked_iterators::_Deprecate' (compiling source file DicomBrowser.cpp)
+  d:\itk\include\itk-4.13\itkImageFileReader.hxx(453): note: see reference to function template instantiation '_OutIt *std::copy<const short*,short*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=short *,
+              _InIt=const short *
+          ] (compiling source file DicomBrowser.cpp)
+  d:\itk\include\itk-4.13\itkImageFileReader.hxx(365): note: while compiling class template member function 'void itk::ImageFileReader<ImageType,itk::DefaultConvertPixelTraits<short>>::GenerateData(void)' (compiling source file DicomBrowser.cpp)
+  DicomBrowser.cpp(82): note: see reference to class template instantiation 'itk::ImageFileReader<ImageType,itk::DefaultConvertPixelTraits<short>>' being compiled
+  DicomBrowser.vcxproj -> E:\Projects\DicomBrowser\x64\Debug\DicomBrowser.exe
+  DicomBrowser.vcxproj -> E:\Projects\DicomBrowser\x64\Debug\DicomBrowser.pdb (Full PDB)
